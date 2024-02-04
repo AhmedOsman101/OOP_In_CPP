@@ -22,13 +22,13 @@ double calculator(double num1, char action, double num2)
         result = num1 * num2;
         break;
     case '/':
-    case '÷':
         result = num1 / num2;
         break;
     default:
         cerr << "Invalid operator." << endl;
         return 0;
     }
+
     cout
         << num1
         << ' '
