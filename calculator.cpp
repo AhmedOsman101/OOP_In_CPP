@@ -27,9 +27,17 @@ double calculator(double num1, char action, double num2)
         break;
     default:
         cerr << "Invalid operator." << endl;
-        break;
+        return 0;
     }
-
+    cout
+        << num1
+        << ' '
+        << action
+        << ' '
+        << num2
+        << " = "
+        << result
+        << endl;
     return result;
 }
 
@@ -47,15 +55,7 @@ int main()
     cout << "Enter the second number: ";
     cin >> num2;
 
-    cout
-        << num1
-        << ' '
-        << action
-        << ' '
-        << num2
-        << " = "
-        << calculator(num1, action, num2)
-        << endl;
+    calculator(num1, action, num2);
 
     return 0;
 }
