@@ -1,9 +1,6 @@
 #include <iostream>
 
-using std::cerr;
-using std::cin;
-using std::cout;
-using std::endl;
+using namespace std;
 
 double calculator(double num1, char action, double num2)
 {
