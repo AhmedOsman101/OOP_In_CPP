@@ -25,6 +25,5 @@ int main()
 {
     cout
         << bmi(50, 1.80)
-        << "\n"
         << endl;
 }
