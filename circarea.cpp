@@ -1,6 +1,5 @@
 #include <iostream>
-int main()
-{
+int main() {
     int radius;
     std::cout << "Enter the radius of the circle: ";
     std::cin >> radius;

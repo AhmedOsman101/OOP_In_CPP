@@ -2,11 +2,10 @@
 
 using namespace std;
 
-double calculator(double num1, char action, double num2)
-{
+double calculator(double num1, char action, double num2) {
     double result;
-    switch (action)
-    {
+
+    switch (action) {
     case '+':
         result = num1 + num2;
         break;
@@ -26,20 +25,11 @@ double calculator(double num1, char action, double num2)
         return 0;
     }
 
-    cout
-        << num1
-        << ' '
-        << action
-        << ' '
-        << num2
-        << " = "
-        << result
-        << endl;
+    cout << num1 << ' ' << action << ' ' << num2 << " = " << result << endl;
     return result;
 }
 
-int main()
-{
+int main() {
     double num1, num2;
     char action; // char stores one character by default
 

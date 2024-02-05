@@ -1,11 +1,10 @@
+#include <cmath>
 #include <iostream>
 #include <string>
-#include <cmath>
 
 using namespace std;
 
-string bmi(double w, double h)
-{
+string bmi(double w, double h) {
     double bmi = w / pow(h, 2);
 
     if (bmi <= 18.5)
@@ -21,9 +20,4 @@ string bmi(double w, double h)
         return "Obese";
 }
 
-int main()
-{
-    cout
-        << bmi(50, 1.80)
-        << endl;
-}
+int main() { cout << bmi(50, 1.80) << endl; }
