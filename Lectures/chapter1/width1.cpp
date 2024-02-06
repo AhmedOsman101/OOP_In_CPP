@@ -1,6 +1,8 @@
 // demonstrates need for setw manipulator
 #include <iostream>
+
 using namespace std;
+
 int main() {
     long pop1 = 2425785, pop2 = 47, pop3 = 9761;
     cout << "LOCATION "
