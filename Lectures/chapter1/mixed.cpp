@@ -1,7 +1,10 @@
-// shows mixed expressions
+// Page: 82, 83
 #include <iostream>
+
 using namespace std;
-int main() {
+
+int main()
+{
     int count = 7;
     float avgWeight = 155.5F;
     double totalWeight = count * avgWeight;

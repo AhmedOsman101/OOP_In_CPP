@@ -1,5 +1,8 @@
+// Page: 70
 #include <iostream>
-int main(int argc, char *argv[]) {
+
+int main()
+{
     char charvar1 = 'A';               // define char variable as character
     char charvar2 = '\t';              // define char variable as tab
     std::cout << charvar1 << charvar2; // display character

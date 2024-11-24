@@ -1,9 +1,8 @@
-// comments.cpp
-// demonstrates comments
+// Page: 62
 #include <iostream> //preprocessor directive
-// using namespace std; //"using" directive
-int main() // function name "main"
-{          // start function body
+
+int main()                                                // function name "main"
+{                                                         // start function body
     std::cout << "Every age has a language of its own\n"; // statement
     return 0;                                             // statement
-} // end function body
+} /* end function body */

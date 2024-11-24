@@ -1,5 +1,9 @@
+// Page: 72
+
 #include <iostream>
-int main(int argc, char *argv[]) {
+
+int main()
+{
     int tempf;
     std::cout << "Enter the temp in F: ";
     std::cin >> tempf;
